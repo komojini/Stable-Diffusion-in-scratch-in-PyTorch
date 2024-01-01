@@ -113,7 +113,7 @@ class UNET_AttentionBlock(nn.Module):
 
         return self.conv_output(x) + residue_long
 
-        
+# https://www.youtube.com/watch?v=ZBKpAp_6TGI 
 
 
 class UNET_ResidualBlock(nn.Module):
